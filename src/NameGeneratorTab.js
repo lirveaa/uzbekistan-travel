@@ -128,22 +128,27 @@ export default function NameGeneratorTab() {
   const [showBrowse, setShowBrowse] = useState(false);
 
   useEffect(() => {
-    // Fetch the CSV file from public folder
-    // Use process.env.PUBLIC_URL to handle GitHub Pages base path
-    fetch(`${process.env.PUBLIC_URL}/data/uzbek_names.csv`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load names data");
-        return res.text();
-      })
-      .then((csvText) => {
-        const parsed = parseNamesCsv(csvText);
+    // fetch CSV from public/data/uzbek_names.csv
+    async function loadCsv() {
+      setLoading(true);
+      try {
+        const res = await fetch("./data/uzbek_names.csv");
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status}`);
+        }
+        const txt = await res.text();
+        const parsed = parseNamesCsv(txt);
         setNamesData(parsed);
+        setLoadError(null);
+      } catch (err) {
+        console.error("Failed to load CSV:", err);
+        setLoadError("Could not load names CSV. Make sure file is at public/data/uzbek_names.csv");
+        setNamesData([]);
+      } finally {
         setLoading(false);
-      })
-      .catch((err) => {
-        setLoadError(err.message);
-        setLoading(false);
-      });
+      }
+    }
+    loadCsv();
   }, []);
 
   function generateName(e) {
