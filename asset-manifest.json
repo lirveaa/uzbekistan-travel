@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/uzbekistan-travel/static/css/main.b7b86c91.css",
-    "main.js": "/uzbekistan-travel/static/js/main.384cd8be.js",
+    "main.js": "/uzbekistan-travel/static/js/main.4bb9faa7.js",
     "static/js/453.4d3366de.chunk.js": "/uzbekistan-travel/static/js/453.4d3366de.chunk.js",
     "index.html": "/uzbekistan-travel/index.html",
     "main.b7b86c91.css.map": "/uzbekistan-travel/static/css/main.b7b86c91.css.map",
-    "main.384cd8be.js.map": "/uzbekistan-travel/static/js/main.384cd8be.js.map",
+    "main.4bb9faa7.js.map": "/uzbekistan-travel/static/js/main.4bb9faa7.js.map",
     "453.4d3366de.chunk.js.map": "/uzbekistan-travel/static/js/453.4d3366de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7b86c91.css",
-    "static/js/main.384cd8be.js"
+    "static/js/main.4bb9faa7.js"
   ]
 }
