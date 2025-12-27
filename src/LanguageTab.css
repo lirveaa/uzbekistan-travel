@@ -1,0 +1,121 @@
+/* Styles for Learn Uzbek tab */
+
+.lang-root {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* top controls: category pills + search */
+.lang-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* category pills */
+.category-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pill {
+  background: var(--card, #fff);
+  border: 1px solid rgba(15,23,42,0.06);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--text, #0f172a);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.pill:hover { transform: translateY(-3px); }
+.pill.active {
+  background: linear-gradient(90deg, rgba(37,99,235,0.12), rgba(124,58,237,0.08));
+  border-color: rgba(37,99,235,0.18);
+}
+
+/* search input */
+.search-wrap {
+  min-width: 240px;
+  flex: 1 1 280px;
+}
+.search-wrap input[type="search"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(15,23,42,0.06);
+  box-shadow: var(--soft-shadow, 0 6px 18px rgba(16,24,40,0.04));
+}
+
+/* list */
+.phrases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.phrase-row {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  padding: 12px;
+  border-radius:10px;
+  background: var(--card, #fff);
+  border: 1px solid rgba(15,23,42,0.03);
+  box-shadow: var(--soft-shadow, 0 6px 18px rgba(16,24,40,0.04));
+}
+.phrase-left {
+  display:flex;
+  flex-direction:column;
+}
+.phrase-uz {
+  font-weight:800;
+  font-size:16px;
+  color:var(--text, #0f172a);
+}
+.phrase-translit {
+  font-style: italic;
+  color: var(--muted, #6b7280);
+  font-size:13px;
+}
+.phrase-en {
+  color: var(--muted, #6b7280);
+  font-size:13px;
+}
+
+/* action buttons */
+.phrase-actions {
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+.btn.icon {
+  background: transparent;
+  border: 1px solid rgba(15,23,42,0.06);
+  padding: 8px 10px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:700;
+}
+.btn.icon:hover {
+  transform: translateY(-3px);
+  background: rgba(37,99,235,0.06);
+}
+
+/* empty state */
+.empty {
+  color: var(--muted, #6b7280);
+  padding: 18px;
+  text-align:center;
+}
+
+/* responsive */
+@media (max-width: 720px) {
+  .lang-controls { flex-direction: column; align-items: stretch; }
+  .search-wrap { flex: none; width: 100%; }
+  .phrase-row { flex-direction: column; align-items:flex-start; }
+  .phrase-actions { align-self: flex-end; }
+}

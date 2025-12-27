@@ -1,0 +1,125 @@
+[
+  {
+    "category": "Greetings",
+    "phrases": [
+      { "uz": "Salom", "translit": "Salom", "en": "Hello" },
+      { "uz": "Assalomu alaykum", "translit": "Assalomu alaykum", "en": "Peace be upon you (formal greeting)" },
+      { "uz": "Hayrli tong", "translit": "Hayrli tong", "en": "Good morning" },
+      { "uz": "Hayrli kun", "translit": "Hayrli kun", "en": "Good day" },
+      { "uz": "Hayrli kech", "translit": "Hayrli kech", "en": "Good evening" },
+      { "uz": "Xayr", "translit": "Xayr", "en": "Goodbye" },
+      { "uz": "Ko'rishguncha", "translit": "Ko'rishguncha", "en": "See you later" },
+      { "uz": "Rahmat", "translit": "Rahmat", "en": "Thank you" },
+      { "uz": "Iltimos", "translit": "Iltimos", "en": "Please" },
+      { "uz": "Kechirasiz", "translit": "Kechirasiz", "en": "Excuse me / Sorry" }
+    ]
+  },
+  {
+    "category": "Basic phrases",
+    "phrases": [
+      { "uz": "Ha", "translit": "Ha", "en": "Yes" },
+      { "uz": "Yo'q", "translit": "Yo'q", "en": "No" },
+      { "uz": "Men tushunmadim", "translit": "Men tushunmadim", "en": "I don't understand" },
+      { "uz": "Yana bir marta ayting", "translit": "Yana bir marta ayting", "en": "Please say it again" },
+      { "uz": "Inglizcha bilasizmi?", "translit": "Inglizcha bilasizmi?", "en": "Do you speak English?" },
+      { "uz": "Men o'zbekcha bilmayman", "translit": "Men o'zbekcha bilmayman", "en": "I don't speak Uzbek" },
+      { "uz": "Yozing iltimos", "translit": "Yozing iltimos", "en": "Please write it down" },
+      { "uz": "Muammo yo'q", "translit": "Muammo yo'q", "en": "No problem" }
+    ]
+  },
+  {
+    "category": "In transport",
+    "phrases": [
+      { "uz": "Bu bekatmi?", "translit": "Bu bekatmi?", "en": "Is this the stop?" },
+      { "uz": "Qayerga boradi?", "translit": "Qayerga boradi?", "en": "Where does this (vehicle) go?" },
+      { "uz": "Bilet qancha turadi?", "translit": "Bilet qancha turadi?", "en": "How much is a ticket?" },
+      { "uz": "Menga taksi chaqiring", "translit": "Menga taksi chaqiring", "en": "Call me a taxi" },
+      { "uz": "Stansiyaga qanday boraman?", "translit": "Stansiyaga qanday boraman?", "en": "How do I get to the station?" },
+      { "uz": "Men tushmoqchiman", "translit": "Men tushmoqchiman", "en": "I want to get off" },
+      { "uz": "Bu manzilga boring", "translit": "Bu manzilga boring", "en": "Go to this address" },
+      { "uz": "Qancha vaqt ketadi?", "translit": "Qancha vaqt ketadi?", "en": "How long does it take?" },
+      { "uz": "Metro qayerda?", "translit": "Metro qayerda?", "en": "Where is the metro?" }
+    ]
+  },
+  {
+    "category": "Daily conversation",
+    "phrases": [
+      { "uz": "Qalaysiz?", "translit": "Qalaysiz?", "en": "How are you?" },
+      { "uz": "Men yaxshi", "translit": "Men yaxshi", "en": "I'm fine" },
+      { "uz": "Ismingiz nima?", "translit": "Ismingiz nima?", "en": "What is your name?" },
+      { "uz": "Menga yordam bera olasizmi?", "translit": "Menga yordam bera olasizmi?", "en": "Can you help me?" },
+      { "uz": "Qayerdansiz?", "translit": "Qayerdansiz?", "en": "Where are you from?" },
+      { "uz": "Men ... dan keldim", "translit": "Men ... dan keldim", "en": "I'm from ..." },
+      { "uz": "Xush kelibsiz", "translit": "Xush kelibsiz", "en": "Welcome" },
+      { "uz": "Tug'ilgan kuningiz bilan!", "translit": "Tug'ilgan kuningiz bilan!", "en": "Happy birthday!" },
+      { "uz": "Omad tilayman", "translit": "Omad tilayman", "en": "Good luck" }
+    ]
+  },
+  {
+    "category": "Shopping",
+    "phrases": [
+      { "uz": "Bu qancha turadi?", "translit": "Bu qancha turadi?", "en": "How much does this cost?" },
+      { "uz": "Juda qimmat", "translit": "Juda qimmat", "en": "It's too expensive" },
+      { "uz": "Arzonroq bor-mi?", "translit": "Arzonroq bor-mi?", "en": "Do you have something cheaper?" },
+      { "uz": "Men buni olaman", "translit": "Men buni olaman", "en": "I'll take this" },
+      { "uz": "Chegirma bor-mi?", "translit": "Chegirma bor-mi?", "en": "Is there a discount?" },
+      { "uz": "Qaysi rangda bor?", "translit": "Qaysi rangda bor?", "en": "What colors do you have?" },
+      { "uz": "Katta o'lcham bor-mi?", "translit": "Katta o'lcham bor-mi?", "en": "Do you have a larger size?" },
+      { "uz": "Kichikroq o'lcham bor-mi?", "translit": "Kichikroq o'lcham bor-mi?", "en": "Do you have a smaller size?" }
+    ]
+  },
+  {
+    "category": "Eating",
+    "phrases": [
+      { "uz": "Menyu bering iltimos", "translit": "Menyu bering iltimos", "en": "The menu, please" },
+      { "uz": "Menga bitta osh bering", "translit": "Menga bitta osh bering", "en": "One plov for me (please)" },
+      { "uz": "Suv bering iltimos", "translit": "Suv bering iltimos", "en": "Water, please" },
+      { "uz": "Hisobni bering iltimos", "translit": "Hisob bering iltimos", "en": "Check, please" },
+      { "uz": "Men vegetarianman", "translit": "Men vegetarianman", "en": "I am a vegetarian" },
+      { "uz": "Juda mazali", "translit": "Juda mazali", "en": "Very delicious" },
+      { "uz": "Men to'ydim", "translit": "Men to'ydim", "en": "I'm full" },
+      { "uz": "Choy bering iltimos", "translit": "Choy bering iltimos", "en": "Tea, please" },
+      { "uz": "Kofe bering iltimos", "translit": "Kofe bering iltimos", "en": "Coffee, please" },
+      { "uz": "Yoqimli ishtaha!", "translit": "Yoqimli ishtaha!", "en": "Enjoy your meal!" }
+    ]
+  },
+  {
+    "category": "Accommodation",
+    "phrases": [
+      { "uz": "Xona bormi?", "translit": "Xona bormi?", "en": "Do you have a room available?" },
+      { "uz": "Bir kecha qancha?", "translit": "Bir kecha qancha?", "en": "How much per night?" },
+      { "uz": "Wi-Fi bormi?", "translit": "Wi-Fi bormi?", "en": "Is there Wi-Fi?" },
+      { "uz": "Nonushta ichiga kiradimi?", "translit": "Nonushta ichiga kiradimi?", "en": "Is breakfast included?" },
+      { "uz": "Xonani ko'rsata olasizmi?", "translit": "Xonani ko'rsata olasizmi?", "en": "Can you show me the room?" },
+      { "uz": "Kalitni bering iltimos", "translit": "Kalitni bering iltimos", "en": "The key, please" },
+      { "uz": "Sochiq bormi?", "translit": "Sochiq bormi?", "en": "Do you have a towel?" }
+    ]
+  },
+  {
+    "category": "Emergency",
+    "phrases": [
+      { "uz": "Yordam bering!", "translit": "Yordam bering!", "en": "Help!" },
+      { "uz": "Militsiya chaqiring!", "translit": "Militsiya chaqiring!", "en": "Call the police!" },
+      { "uz": "Tez yordam kerak!", "translit": "Tez yordam kerak!", "en": "I need an ambulance!" },
+      { "uz": "Men kasalman", "translit": "Men kasalman", "en": "I'm sick" },
+      { "uz": "Menga doktor kerak", "translit": "Menga doktor kerak", "en": "I need a doctor" },
+      { "uz": "Kasalxona qayerda?", "translit": "Kasalxona qayerda?", "en": "Where is the hospital?" },
+      { "uz": "Mening narsalarim o'g'irlangan", "translit": "Mening narsalarim o'g'irlangan", "en": "My things have been stolen" }
+    ]
+  },
+  {
+    "category": "Numbers",
+    "phrases": [
+      { "uz": "Bir", "translit": "Bir", "en": "One" },
+      { "uz": "Ikki", "translit": "Ikki", "en": "Two" },
+      { "uz": "Uch", "translit": "Uch", "en": "Three" },
+      { "uz": "To'rt", "translit": "To'rt", "en": "Four" },
+      { "uz": "Besh", "translit": "Besh", "en": "Five" },
+      { "uz": "Olti", "translit": "Olti", "en": "Six" },
+      { "uz": "Yetti", "translit": "Yetti", "en": "Seven" },
+      { "uz": "Sakkiz", "translit": "Sakkiz", "en": "Eight" },
+      { "uz": "To'qqiz", "translit": "To'qqiz", "en": "Nine" },
+      { "uz": "O'n", "translit": "O'n", "en": "Ten" }
+    ]
+  }
+]

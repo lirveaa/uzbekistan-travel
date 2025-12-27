@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tashkent",
+    "hotPlace": "Amir Timur Square & Independence Square",
+    "image": "https://uzbekistan.travel/storage/app/media/Otabek/skver/cropped-images/IMG_0069-0-0-0-0-1659175608.jpg",
+    "description": "Tashkent is the capital city with modern architecture, wide boulevards, metro art stations and cultural museums."
+  },
+  {
+    "name": "Samarkand",
+    "hotPlace": "Registan",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Registan_square_Samarkand.jpg/500px-Registan_square_Samarkand.jpg",
+    "description": "Samarkand is famous for its stunning Islamic architecture, Registan square, ancient madrasahs and Silk Road history."
+  },
+  {
+    "name": "Andijan",
+    "hotPlace": "Babur Museum & Andijan Bazaar",
+    "image": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/Andijan-0-0-0-0-1594283872.jpg",
+    "description": "Andijan in the Fergana Valley is known for its lively bazaars, rich local craft traditions and historical sites."
+  },
+  {
+    "name": "Bukhara",
+    "hotPlace": "Poi Kalyan Complex",
+    "image": "https://adrastravel.com/wp-content/uploads/2021/09/bukhara.jpg",
+    "description": "Bukhara is a well-preserved historic city with many madrasahs, minarets and a charming old town atmosphere."
+  },
+  {
+    "name": "Khiva",
+    "hotPlace": "Ichan-Kala (Old City)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Islam_Khodja_Madrasa_01.jpg/960px-Islam_Khodja_Madrasa_01.jpg",
+    "description": "Khiva is a compact walled city with beautiful, restored monuments and a strong feel of the Silk Road past."
+  }
+]
