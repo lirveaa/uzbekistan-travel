@@ -86,7 +86,7 @@ export default function App() {
           <div className="brand">
             <div className="brand-mark" aria-hidden/>
             <div className="brand-text">
-              <h1 ><a href="#">UzFinder Hub</a></h1>
+              <h1 ><a href="https://lirveaa.github.io/uzbekistan-travel/">UzFinder Hub</a></h1>
               <p className="subtitle">Travel . Language . Food . Names</p>
             </div>
           </div>

@@ -132,7 +132,7 @@ export default function NameGeneratorTab() {
     async function loadCsv() {
       setLoading(true);
       try {
-        const res = await fetch("./data/uzbek_names.csv");
+        const res = await fetch(`${process.env.PUBLIC_URL}/data/uzbek_names.csv`);
         if (!res.ok) {
           throw new Error(`HTTP ${res.status}`);
         }
@@ -205,7 +205,7 @@ export default function NameGeneratorTab() {
     setYourFavColor("");
     setYourFavNum("");
     setYourGender("");
-    //setResult(null);
+    setResult(null);
   }
 
 
